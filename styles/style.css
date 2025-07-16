@@ -260,6 +260,18 @@ textarea {
 }
 
 @media screen and (max-width: 576px) {
+    .about-items {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .about-items {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 576px) {
 
     .skills-container {
         flex-direction: column;
@@ -291,5 +303,30 @@ textarea {
     .resume-column-title,
     .experience {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footer {
+        flex-direction: column;
+        padding: 30px 10px;
+        gap: 20px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .footer {
+        flex-direction: column;
+        padding: 30px 10px;
+        gap: 20px;
+    }
+
+    .footer-column {
+        width: 100%;
     }
 }
