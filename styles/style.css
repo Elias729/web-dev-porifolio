@@ -255,13 +255,38 @@ textarea {
 
 /* Responsive */
 
-.hide {
-    display: none;
+@media screen and (max-width: 576px) {
+    .banner {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .header {
+        background-image: none;
+    }
+
+    .banner-img {
+        width: 100%;
+    }
+
+    nav,
+    nav>ul {
+        flex-direction: column;
+    }
+
+    .btn-primary {
+        margin-bottom: 20px;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 576px) {
     .about-items {
         flex-wrap: wrap;
+    }
+
+    .about {
+        padding: 25px;
     }
 }
 
